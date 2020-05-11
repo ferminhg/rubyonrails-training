@@ -1,17 +1,17 @@
-sentence = 'My dog name is Mora'
+sentence = "My dog name is Mora"
 
 # string concatenation
 p sentence
 first_name = "Fermin"
 last_name = "Hdez"
-puts first_name + " " +last_name
+puts first_name + " " + last_name
 
 #string interpolation
 puts "My first name #{first_name} is and my last name is #{last_name}"
 
 full_name = "#{first_name} #{last_name}"
 
-#Methods, what class 
+#Methods, what class
 p full_name.class
 p 0.class
 #p first_name.methods
